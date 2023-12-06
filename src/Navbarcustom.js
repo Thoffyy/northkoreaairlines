@@ -1,11 +1,11 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
-const Navbar = () => {
+const Navbarcustom = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar className='navbarcustom' bg="dark" variant="dark">
       <Navbar.Brand>Thoffy's webpage</Navbar.Brand>
-      <Nav className="mr-auto">
+      <Nav className="mr-auto" id='textnavbar'>
         <Nav.Link href="#about">About</Nav.Link>
         <Nav.Link href="#notes">Notes</Nav.Link>
         <Nav.Link href="#blog">Blog</Nav.Link>
@@ -15,4 +15,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbarcustom;

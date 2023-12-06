@@ -1,21 +1,18 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './App.css';
+import Navbarcustom from './Navbarcustom';
 
 function App() {
   return (
-    <Navbar bg='dark' variant='dark' className='justify-content-center'>
-      <Container>
-        <Navbar.Brand>Web Jonas</Navbar.Brand>
-        <Nav className='justify-content-center'>
-          <Nav.Link>Lorem Ipsus</Nav.Link>
-          <Nav.Link>Lorem Ipsus</Nav.Link>
-          <Nav.Link>Lorem Ipsus</Nav.Link>
-          <Nav.Link>Lorem Ipsus</Nav.Link>
-        </Nav>
-      </Container>
-    </Navbar>
-  );
+
+        <div className="background-image">
+          <Navbarcustom />
+          <Container>
+            {/* conteúdo aqui */}
+          </Container>
+        </div>
+        );
 }
 
 export default App;
