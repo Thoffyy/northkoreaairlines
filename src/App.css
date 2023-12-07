@@ -1,12 +1,15 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .background-image {
-  background-image: url('C:\Users\pedro\OneDrive\Área de Trabalho\vscode workspace\koreaairlines\northkoreaairlines\public\nk1.webp');
+  background-image: url('C:\Users\pedro\OneDrive\Área de Trabalho\vscode workspace\koreaairlines\northkoreaairlines\public\kimputin.jpeg');
   background-size: cover; /* ou 'contain' dependendo do efeito desejado */
   background-position: center center;
   background-repeat: no-repeat;
   min-height: 100vh; /* ou outra altura desejada */
 }
+
+
+
 
 .navbarcustom{
   display: flexbox;
