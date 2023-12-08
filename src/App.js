@@ -6,11 +6,22 @@ import Navbarcustom from './Navbarcustom';
 function App() {
   return (
 
-        <div className="background-image">
+        <div>
           <Navbarcustom />
           <Container>
             {/* conteúdo aqui */}
           </Container>
+
+
+          <div>
+        {/* Adicione a classe blur-image à imagem */}
+        <img
+          className='blur-image'
+          src='kimputin.jpeg'
+          alt='Imagem com efeito de desfoque'
+        />
+          </div>
+
         </div>
         );
 }

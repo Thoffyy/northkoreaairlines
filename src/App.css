@@ -1,12 +1,14 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-.background-image {
-  background-image: url('C:\Users\pedro\OneDrive\Área de Trabalho\vscode workspace\koreaairlines\northkoreaairlines\public\kimputin.jpeg');
+.blur-image{
   background-size: cover; /* ou 'contain' dependendo do efeito desejado */
   background-position: center center;
   background-repeat: no-repeat;
   min-height: 100vh; /* ou outra altura desejada */
+  filter: blur(px);
 }
+
+
 
 
 
@@ -20,6 +22,3 @@
 
 
 /* lembrar de deixar os textos mais pertos da borda */
-#textnavbar{
-  padding: 0px 300px;
-}
