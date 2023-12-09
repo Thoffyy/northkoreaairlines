@@ -63,20 +63,20 @@ body {
 
     function fazerLogin() {
         var pass = document.getElementById('pass').value;
-        var hash = 'b7e94be513e96e8c45cd23d162275e5a12ebde9100a425c4ebcdd7fa4dcd897c';
+        var hash = 'de2036f6f69896dde4462cbab99a077091ca3710cdf27a6a06606de51257b96f';
       
         if (hash === sha256(pass)) {
-          window.alert('senha correta')
-          window.location.href = "admin.html";
+          window.alert('senha correta, Bem vindo de volta LIDER SUPREMO')
+          window.location.href = "teste.html";
         } else {
           window.alert('senha incorreta');
         }
       
         var user = document.getElementById('user').value;
-        var hash = '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918';
+        var hash = '2feb269f74a9c1a677b325641d04bb1fff025fcc552af2ff3fad6ed21886a9cc';
       
         if (hash === sha256(user)) {
-          window.alert('Bem vindo');
+          window.alert('Usuario encontrado');
         } else {
           window.alert('Usuario nao existente');
         }
@@ -84,23 +84,23 @@ body {
 
     </script>
 
-<div id="boxlogin">
-    <div class="card position-absolute top-50 start-50 translate-middle mt-1" style="width: 18rem;">
+    <div id="boxlogin">
+      <div class="card position-absolute top-50 start-50 translate-middle mt-1" style="width: 18rem;">
 
-        <h2>Login</h2>
+          <h2>Login</h2>
 
-        <div id="login">
-            <input type="email" placeholder="Digite seu usuario" id="user"> <br>
-            <br>
-            <input type="password" placeholder="Digite sua senha" id="pass">
-            <br>
-        </div>
-    <a href="fazueli" id="esqueci"> Esqueci minha senha </a> <br>
+          <div id="login">
+              <input type="email" placeholder="Digite seu usuario" id="user"> <br>
+              <br>
+              <input type="password" placeholder="Digite sua senha" id="pass">
+              <br>
+          </div>
+      <a href="fazueli" id="esqueci"> Esqueci minha senha </a> <br>
 
-        <button class="btn" type="submit" id="confirma" onclick="fazerLogin()" > Enviar</button>
+          <button class="btn" type="submit" id="confirma" onclick="fazerLogin()" > Enviar</button>
 
+      </div>
     </div>
-</div>
 
 
 </body>
