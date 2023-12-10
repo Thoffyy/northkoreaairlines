@@ -1,5 +1,16 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+body{
+  background-color: #D32F2F;
+}
+.txttitle{
+  padding: 40px;
+}
+
+.txttitle h2{
+  padding: 10px;
+}
+
 .blur-image{
   background-size: cover; /* ou 'contain' dependendo do efeito desejado */
   background-position: center center;

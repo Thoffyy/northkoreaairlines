@@ -10,7 +10,7 @@ function App() {
       <Container>
         <main>
           <Row>
-            <Col md={8}>
+            <Col className='txttitle' md={8}>
               <h2>Bem-vindo à [Nome da Empresa]</h2>
               <p>
                 [Descrição da empresa fictícia que oferece voos para a Coreia do Norte.]
@@ -29,7 +29,7 @@ function App() {
       </Container>
 
       <footer className="text-center py-3 bg-dark text-light">
-        <p>&copy; 2023 [Nome da Empresa]. Todos os direitos reservados.</p>
+        <p>&copy; 2023 [북한항공]. 판권소유.</p>
       </footer>
     </div>
   );
