@@ -1,29 +1,38 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 import Navbarcustom from './Navbarcustom';
 
 function App() {
   return (
+    <div>
+      <Navbarcustom />
+      <Container>
+        <main>
+          <Row>
+            <Col md={8}>
+              <h2>Bem-vindo à [Nome da Empresa]</h2>
+              <p>
+                [Descrição da empresa fictícia que oferece voos para a Coreia do Norte.]
+              </p>
+              {/* Adicione mais conteúdo aqui conforme necessário */}
+            </Col>
+            <Col md={4}>
+              <img
+                className='vertical'
+                src='flagvertical.png'
+                alt='verticalflag'
+              />
+            </Col>
+          </Row>
+        </main>
+      </Container>
 
-        <div>
-          <Navbarcustom />
-          <Container>
-            {/* conteúdo aqui */}
-          </Container>
-
-
-          <div>
-        {/* Adicione a classe blur-image à imagem */}
-        <img
-          className='blur-image'
-          src='kimputin.jpeg'
-          alt='Imagem com efeito de desfoque'
-        />
-          </div>
-
-        </div>
-        );
+      <footer className="text-center py-3 bg-dark text-light">
+        <p>&copy; 2023 [Nome da Empresa]. Todos os direitos reservados.</p>
+      </footer>
+    </div>
+  );
 }
 
 export default App;
