@@ -18,6 +18,4 @@ function aprovador() {
     window.alert(mensagemAleatoria);
   }
   
-  // Chame a função para testar
-
   

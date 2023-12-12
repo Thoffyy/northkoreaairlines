@@ -1,4 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Poppins&display=swap');
 
 body{
   background-color: #D32F2F;
@@ -6,6 +7,8 @@ body{
 .txttitle{
   padding: 40px;
   text-align: center;
+  font-family: 'Francois One', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #cardsobre{
