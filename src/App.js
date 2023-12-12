@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
@@ -6,18 +7,18 @@ import Cardsobre from './Cardsobre';
 
 function App() {
   return (
-    <div>
+    <div className="app-container">
       <Navbarcustom />
       <Container>
-        <main>
+        <main className='main-content'>
           <Row>
             <Col className='txttitle' md={8}>
-              <h2>Bem-vindo à North Korea Airlines</h2>
+              <h1>Bem-vindo à North Korea Airlines</h1>
               <p className='description'>
-                A agencia de viagens da melhor coreia (a do norte)
+                A agência de viagens da melhor Coreia (a do norte)
               </p>
               <div id='cardsobre'>
-              <Cardsobre />
+                <Cardsobre />
               </div>
             </Col>
             <Col md={4}>
@@ -28,7 +29,6 @@ function App() {
               />
             </Col>
           </Row>
-
         </main>
       </Container>
 
