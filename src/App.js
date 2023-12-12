@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 import Navbarcustom from './Navbarcustom';
+import Cardsobre from './Cardsobre';
 
 function App() {
   return (
@@ -11,11 +12,13 @@ function App() {
         <main>
           <Row>
             <Col className='txttitle' md={8}>
-              <h2>Bem-vindo à [Nome da Empresa]</h2>
-              <p>
-                [Descrição da empresa fictícia que oferece voos para a Coreia do Norte.]
+              <h2>Bem-vindo à North Korea Airlines</h2>
+              <p className='description'>
+                A agencia de viagens da melhor coreia (a do norte)
               </p>
-              {/* Adicione mais conteúdo aqui conforme necessário */}
+              <div id='cardsobre'>
+              <Cardsobre />
+              </div>
             </Col>
             <Col md={4}>
               <img
@@ -25,6 +28,7 @@ function App() {
               />
             </Col>
           </Row>
+
         </main>
       </Container>
 

@@ -5,6 +5,11 @@ body{
 }
 .txttitle{
   padding: 40px;
+  text-align: center;
+}
+
+#cardsobre{
+  margin-top: 50rem;
 }
 
 .txttitle h2{
