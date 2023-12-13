@@ -7,18 +7,18 @@ import Cardsobre from './Cardsobre';
 
 function App() {
   return (
-    <div className="app-container">
+    <div>
       <Navbarcustom />
       <Container>
-        <main className='main-content'>
+        <main>
           <Row>
             <Col className='txttitle' md={8}>
               <h1>Bem-vindo à North Korea Airlines</h1>
               <p className='description'>
-                A agência de viagens da melhor Coreia (a do norte)
+                A agencia de viagens da melhor coreia (a do norte)
               </p>
               <div id='cardsobre'>
-                <Cardsobre />
+              <Cardsobre />
               </div>
             </Col>
             <Col md={4}>
@@ -29,6 +29,7 @@ function App() {
               />
             </Col>
           </Row>
+
         </main>
       </Container>
 

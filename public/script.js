@@ -5,7 +5,7 @@ function aprovador() {
       'Você não tem permissão para acessar esta área. Verifique suas credenciais.',
       'Acesso restrito. Sua identificação não está autorizada.',
       'Desculpe, você não tem permissão para entrar. Verifique seu status de aprovação',
-      'Voce so pode usar esta função sendo o Lider supremo Kim Jonh Un ',
+      'Voce so pode usar esta função sendo o Lider supremo Kim Jong-un ',
       'Deus salve o Lider, mas voce nao pode usar esta função',
       'Voce nao pode fazer isso, voce e o lider supremo?'
 

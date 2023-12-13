@@ -1,6 +1,9 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Poppins&display=swap');
 
+body{
+  background-color: rgba(0, 0, 0, 0.178);
+}
 
 .txttitle{
   font-size: medium;
@@ -10,11 +13,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.main-content{
-  background-color: rgba(255, 0, 0, 0);
+#cardsobre{
+  margin-top: 50rem;
 }
-
-
 
 .txttitle h1{
   font-family: 'Francois One', sans-serif;
@@ -32,24 +33,4 @@
 }
 
 
-
-.app-container {
-  background-image: url('C:\Users\pedro\OneDrive\Área de Trabalho\vscode workspace\koreaairlines\northkoreaairlines\public\aviao2.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.main-content {
-  background-color: rgba(255, 255, 255, 0.9); /* Adiciona uma camada semitransparente para melhorar a legibilidade do texto */
-  padding: 20px;
-  margin-top: 50px; /* Ajuste conforme necessário para garantir que o conteúdo não fique muito próximo ao topo */
-}
-
-.vertical{
-  position: relative;
-  z-index: 1; /* Coloca a imagem atrás de todos os outros elementos */
-}
-/* App.css */
 
