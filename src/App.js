@@ -4,6 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 import Navbarcustom from './Navbarcustom';
 import Cardsobre from './Cardsobre';
+import Cardlocacao from './Cardlocacao';
+import Cardseguranca from './Cardseguranca';
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
               </p>
               <div id='cardsobre'>
               <Cardsobre />
+              </div>
+              <br></br>
+              <div id='cardlocacao'>
+                <Cardlocacao />
               </div>
             </Col>
             <Col md={4}>

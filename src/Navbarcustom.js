@@ -7,8 +7,8 @@ const Navbarcustom = () => {
       <Navbar.Brand>North Korea Airlines</Navbar.Brand>
       <Nav className="mr-auto" id='textnavbar'>
         <Nav.Link href="#cardsobre">Sobre</Nav.Link>
-        <Nav.Link href="#blog">Locação</Nav.Link>
-        <Nav.Link href="#notices">Segurança</Nav.Link>
+        <Nav.Link href="#cardlocacao">Locação</Nav.Link>
+        <Nav.Link href="#cardseguranca">Segurança</Nav.Link>
         <Nav.Link href="viagens.html">Viagens</Nav.Link>
       </Nav>
     
