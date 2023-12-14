@@ -5,7 +5,6 @@ import './App.css';
 import Navbarcustom from './Navbarcustom';
 import Cardsobre from './Cardsobre';
 import Cardlocacao from './Cardlocacao';
-import Cardseguranca from './Cardseguranca';
 
 function App() {
   return (
