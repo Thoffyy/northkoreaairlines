@@ -4,16 +4,15 @@ import './App.css';
 function Cardlocacao() {
   return (
      
-    <Card className="bg-dark text-white">
-      <Card.Img src="aviao2.jpg" alt="Card image" />
-      <Card.ImgOverlay>
-        <Card.Title>Card title</Card.Title>
+    <Card border="secondary">
+      <Card.Header>North Korea Airlines</Card.Header>
+      <Card.Title>Locação</Card.Title>
+      <Card.Body>
         <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+        Ao escolher viajar com a North Korea Airlines, sua experiência vai além dos céus, estendendo-se ao solo na forma do nosso exclusivo hotel, o Pinnacle Haven. Situado em meio à majestosa paisagem da Coreia do Norte, este não é apenas um lugar para descansar; é uma obra-prima arquitetônica que redefine o conceito de hospedagem.
         </Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
-      </Card.ImgOverlay>
+        <Card.Img variant="top" src="locacao.jpg" />
+      </Card.Body>
     </Card>
     
   );

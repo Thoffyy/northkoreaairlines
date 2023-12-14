@@ -8,7 +8,6 @@ const Navbarcustom = () => {
       <Nav className="mr-auto" id='textnavbar'>
         <Nav.Link href="#cardsobre">Sobre</Nav.Link>
         <Nav.Link href="#cardlocacao">Locação</Nav.Link>
-        <Nav.Link href="#cardseguranca">Segurança</Nav.Link>
         <Nav.Link href="viagens.html">Viagens</Nav.Link>
       </Nav>
     
