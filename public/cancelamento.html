@@ -9,23 +9,23 @@
 </head>
 <body>
 
-  <label for="userInput">Digite algo:</label>
+  <label for="userInput">DIGITE A SENHA DE CANCELAMENTO:</label>
   <input type="text" id="userInput" />
 
-  <button onclick="verificarSenha()">Verificar</button>
+  <button onclick="verificarSenha()">Confirme</button>
 
   <script>
     function verificarSenha() {
       var userInput = document.getElementById('userInput').value;
-      var hash = 'de2036f6f69896dde4462cbab99a077091ca3710cdf27a6a06606de51257b96f';
+      var hash = '3be4b1591d3406c912a3d40a5a401e435b7e924b783ebdbd062bb7293cd213e5';
 
       // Use a função sha256 da biblioteca js-sha256
       var hashedInput = sha256(userInput);
 
       if (hash === hashedInput) {
-        window.alert('Valor correto! Bem-vindo de volta!');
+        window.alert('Sequencia de cancelamento iniciada, Os misseis não serão mais lançados!');
       } else {
-        window.alert('Valor incorreto');
+        window.alert('Valor incorreto, Misseis prontos para o lançamento!');
       }
     }
   </script>
