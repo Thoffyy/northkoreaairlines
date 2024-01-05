@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/northkoreaairlines/static/css/main.4f597b7b.css",
+    "main.js": "/northkoreaairlines/static/js/main.2f15ebb2.js",
+    "static/js/787.d1cbf40d.chunk.js": "/northkoreaairlines/static/js/787.d1cbf40d.chunk.js",
+    "index.html": "/northkoreaairlines/index.html",
+    "main.4f597b7b.css.map": "/northkoreaairlines/static/css/main.4f597b7b.css.map",
+    "main.2f15ebb2.js.map": "/northkoreaairlines/static/js/main.2f15ebb2.js.map",
+    "787.d1cbf40d.chunk.js.map": "/northkoreaairlines/static/js/787.d1cbf40d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f597b7b.css",
+    "static/js/main.2f15ebb2.js"
+  ]
+}

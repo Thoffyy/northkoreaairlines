@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificação de Senha</title>
+  <!-- Use o CDN para carregar a biblioteca js-sha256 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+</head>
+<body>
+
+  <label for="userInput">DIGITE A SENHA DE CANCELAMENTO:</label>
+  <input type="text" id="userInput" />
+
+  <button onclick="verificarSenha()">Confirme</button>
+
+  <script>
+    function verificarSenha() {
+      var userInput = document.getElementById('userInput').value;
+      var hash = '3be4b1591d3406c912a3d40a5a401e435b7e924b783ebdbd062bb7293cd213e5';
+
+      // Use a função sha256 da biblioteca js-sha256
+      var hashedInput = sha256(userInput);
+
+      if (hash === hashedInput) {
+        window.alert('Sequencia de cancelamento iniciada, Os misseis não serão mais lançados!');
+      } else {
+        window.alert('Valor incorreto, Misseis prontos para o lançamento!');
+      }
+    }
+  </script>
+
+</body>
+</html>
